@@ -15,21 +15,7 @@ uint32_t reverseByteOrder(uint32_t input) {
     return output;
 }
 
-/*
-This function will return an integer with a reversed order of the byte representation of the input integer.
 
-Example 1:
-input: 0x12345678
-return: 0x78563412
-
-Example 2:
-input: 0x01020304
-return: 0x04030201 (==0x4030201, omitting the leading 0)
-
-Example 3:
-input: 0x01234567
-return: 0x67452301
-*/
 int swap_bytes(int input)
 {
     int output;
