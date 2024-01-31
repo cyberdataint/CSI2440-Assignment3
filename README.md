@@ -13,24 +13,16 @@ This C program allows the user to enter an integer in hexadecimal format and pri
 2. Run the compiled program:
 
     ```bash
-    a.exe
+    a.exe 0x0123456789
     ```
-
-3. Enter an integer in hexadecimal format when prompted. To exit, enter '0'.
-
 
 
 ## Sample Execution
 
 ```bash
-Enter an integer (0 to exit): 0x12345678
-Reversed Byte Representation: 0x78563412
+C:\Users\?\a.exe 0x0123456789
+reversed Byte Representaion: 0xffffff7f
 
-Enter an integer (0 to exit): 0x01020304
-Reversed Byte Representation: 0x04030201
 
-Enter an integer (0 to exit): 0x01234567
-Reversed Byte Representation: 0x67452301
-
-Enter an integer (0 to exit): 0
-
+C:\Users\?\a.exe 0x01020304
+reversed Byte Representaion: 0x04030201
