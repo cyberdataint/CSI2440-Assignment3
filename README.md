@@ -1,7 +1,6 @@
 # Byte Swapping Program
 
-This C program allows the user to enter an integer in hexadecimal format and prints its reversed byte representation. It provides an interactive interface where the user can input integers multiple times until entering '0' to exit.
-
+This C program allows the user to enter an integer in hexadecimal format and prints its reversed byte representation.
 ## How to Use
 
 1. Compile the program using a C compiler (e.g., GCC):
